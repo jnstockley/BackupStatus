@@ -1,11 +1,11 @@
-[test.dev]
-server="12345"
+[servers.dev]
+server=12345
 
-[test.beta]
-server="20197"
+[servers.beta]
+server=20197
 
-[test.test]
-server="696969"
+[servers.test]
+server=696969
 
-[test.prod]
-server="42069"
+[servers.prod]
+server=42069

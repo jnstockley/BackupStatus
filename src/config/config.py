@@ -25,8 +25,7 @@ def get_value(key: str):
         if len(params) > 2:
             raise ConfigException(f"{key} is not a valid key")
         try:
-            value = CONFIG[params[0]][PROFILE][params[1]]
-            print(value)
+            return CONFIG[params[0]][PROFILE][params[1]]
         except KeyError:
             raise ConfigException(f"Key {key} is not a present in the loaded config file")
     else:
