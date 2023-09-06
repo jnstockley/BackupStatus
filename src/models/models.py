@@ -10,6 +10,6 @@ class Folder(Base):
     __tablename__ = 'folder'
 
     id: Mapped[int] = mapped_column(primary_key=True)
-    path: Mapped[str] = mapped_column(String)
+    path: Mapped[str] = mapped_column(String(500))
     friendly_name: Mapped[str] = mapped_column(String(50))
     last_update: Mapped[DateTime] = mapped_column(DateTime)

@@ -12,7 +12,7 @@ def main():
     test = Folder(path="hello",
                   friendly_name="world",
                   last_update=datetime.datetime.now())
-    # save(test)
+    save(test)
     get_all()
     #print(type(config.get_value("servers.server")))
 
