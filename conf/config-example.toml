@@ -1,11 +1,11 @@
-[servers.dev]
-server=12345
+[database.dev]
+url="sqlite:///data/backup-status-dev.db"
 
-[servers.beta]
-server=20197
+[database.beta]
+url="sqlite://"
 
-[servers.test]
-server=696969
+[database.test]
+url="sqlite://"
 
-[servers.prod]
-server=42069
+[database.prod]
+url="sqlite://"
